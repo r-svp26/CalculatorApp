@@ -6,7 +6,8 @@ namespace CalculatorApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Calculator Application");
+            Calculator calculator = new Calculator();
+            calculator.add(10,20);
         }
     }
 }
