@@ -6,9 +6,9 @@ namespace CalculatorApp
 {
     class Calculator
     {
-        public void multiplication(int a, int b) {
-            int c = a * b;
-            Console.WriteLine("Multiplication of two number is:" +c);
+        public void division(int a, int b) {
+            int c = a / b;
+            Console.WriteLine("Division of two number is:" +c);
         }
     }
 }
