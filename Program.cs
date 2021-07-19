@@ -7,7 +7,7 @@ namespace CalculatorApp
         static void Main(string[] args)
         {
             Calculator calculator = new Calculator();
-            calculator.subtraction(20,10);
+            calculator.multiplication(6,10);
         }
     }
 }
